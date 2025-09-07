@@ -52,7 +52,7 @@ const PersonalWebsite = () => {
       <nav className="nav">
         <div className="nav-container">
           <div className="nav-logo">
-            Anubhav Choudhery
+            Aditya Goyal
           </div>
           
           {/* Desktop Navigation */}
@@ -98,24 +98,21 @@ const PersonalWebsite = () => {
         <div className="hero-content">
           <div>
             <img
-              src="./Anubhav.jpg"
+              src="../public/Aditya.jpg"
               alt="Profile"
               className="profile-img"
             />
           </div>
           
           <h1 className="hero-title">
-            Anubhav Choudhery
+            Aditya Goyal
           </h1>
           
         <p className="hero-description">
-          Hello there!
+          Hey guys, I'm Aditya Goyal
         </p>
         <p className="hero-description">
-          My name is Anubhav, and I'm an aspiring engineering professional with a strong background in Software Development and AI/ML. 
-          I'm passionate about building scalable software solutions, especially ones powered by AI. 
-          Alongside my software focus, I've also built a solid foundation in hardware systems and cybersecurity through hands-on coursework 
-          and internship experience.
+          From idea to deployment — I make it happen.
         </p>
 
           <button
@@ -145,7 +142,7 @@ const PersonalWebsite = () => {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>© 2025 Anubhav Choudhery</p>
+          <p>© 2025 Aditya Goyal</p>
         </div>
       </footer>
     </div>

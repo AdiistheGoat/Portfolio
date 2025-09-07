@@ -9,65 +9,56 @@ return (
             <div>
                 {[
                     {
-                        title: "Cybersecurity Analyst Intern",
-                        company: "Culligan International",
-                        period: "June 2025 - August 2025",
+                        title: "MLE Intern",
+                        company: "Freecharge",
+                        period: "May 2025 - August 2025",
                         description: [
-                            "This was my first professional experience both in the industry and in the cybersecurity domain. \
-                            I greatly strengthened my foundations in cybersecurity, familiarizing myself with fundamental concepts \
-                            such as the CIA triad, threat modeling, risk assessment and mitigation, and security frameworks like NIST. \
-                            I also gained hands-on experience with industry-standard tools such as Rapid7, SentinelOne and Netskope.",
-                            "One of my projects dealt with gathering millions of rows of data from these platforms in real-time along with \
-                            Microsoft Graph APIs, data from which was then cleaned, analyzed and visualized, creating fine-grained insights. \
-                            Along with that, I also built a tool to automate the KPI process for vulnerability nanagement and built \
-                            a web-scraper to fetch daily incident/vulnerability/explot news from multiple online sources.\
-                            I deployed these projects on an Azure VM, also engaging with Azure App Registry for required cloud permissions."
+                            " Engineered an agentic AI application for financial analytics that lets users query about their credit card transactions and receive both textual and graphical insights.\
+                              Built an ai agent backend using LangGraph and AWS Bedrock endpoints to orchestrate prompt interpretation, entity extraction, SQL generation, and RAG-based memory, achieving over 40% improvement in the analysis given to the user.\
+                              Collaborated closely with business stakeholders to gather requirements and align the AI system with user-facing needs.\
+                              Developed a financial search engine over 12,000+ web pages using AWS Kendra. Designed a scraping and preprocessing pipeline to extract high-signal fields (titles, headers, content blocks) from noisy webpages, leading to a 30% boost in semantic match accuracy (offline benchmarking).\
+                              Leveraged batch API calls to decrease latency during ingestion and updating of 12,000+ financial webpages into AWS Kendra by 20%. Partnered with product and business teams to ensure relevance and coverage of critical financial content.\
+                              Developed a YOLOv8-based video analytics pipeline to detect and track people in CCTV footage, enabling automated monitoring of movement and occupancy. Implemented trajectory validation and line-crossing algorithms to accurately count unique individuals entering or exiting defined zones, reducing false detections.\
+                              Integrated the system with OpenCV and OpenAI APIs for natural-language reporting of analytics, improving interpretability for non-technical stakeholders."
                         ]
                     },
                     {
-                        title: "Undergraduate Researcher",
-                        company: "MLOPT Research Group",
-                        period: "February 2024 - Present",
+                        title: "Software Engineering Intern",
+                        company: "Prof Gary Shuis Lab",
+                        period: "November 2024 - February 2025",
                         description: [
-                            "This has been one of the most challenging and enriching experiences of my life. \
-                            Joining as a freshman without the knowledge of advanced mathematics or general technical skills such as \
-                            shell scripting, I made a great effort to learn and adapt quickly, learning to use several \
-                            new tools and technologies along the way.",
-                            "I experimented in multiple environments, including self-designed Docker environnments, \
-                            custom singularity containers and HTCondor-managed clusters, and  remote-running on a proprietary machine.\
-                            I programmed a Deep Polynomial Network for encrypted image inference in C++ using Microsoft SEAL, \
-                            a process that forced me to understand abstract algorithms such as Pytorch's Convolutional, Linear and \
-                            BatchNorm layers, and combine them into a Homomorphic Encryption-compatible format."
+
+                            " Implemented a Python script to visualize the flow of activation values across layers of an MLP trained on\
+                            mathematical functions. The script includes model training, hyperparameter tuning, error evaluation, and\
+                            PCA-based analysis of hidden layer activations. \
+                            Developed an additional script to automate and batch-process multiple runs with randomly generated functions, enabling comprehensive experimentation\
+                            Extended the project with dynamic layer architecture, enabling users to define the number of layers and\
+                            neurons for customized network configurations. Integrated features to save the best model and activation plots for deeper analysis. \
+                            Improved running time by 25% by Optimizing error computations using vectorized operations\
+                            Collaborated with PhD students and researchers in weekly meetings to gather feedback and align development with research objectives, translating complex requirements into scalable code modules.\
+                            "
                         ]
                     },
                     {
-                        title: "Treasurer",
-                        company: "Wisconsin Robotics",
-                        period: "September 2023 - May 2025",
+                        title: "Undergraduate Teaching Assistant",
+                        company: "University of Wisconsin-Madison Department Of Computer Sciences",
+                        period: "September 2024 - Present",
                         description: [
-                            "My time at Wisconsin Robotics marked my first nonacademic experience in university. I started as \
-                            a member on the software team, learning ROS and its usage inside a Docker container, using Python. \
-                            I worked on the camera system throughout my freshman year, and took up my first leadership role as the club's \
-                            Industry Relations Lead.",
-                            "During my time as Industry Relations Lead and subsequently Treasurer, I collaborated with the club leadership \
-                            to raise more than $20,000 in sponsorships from different companies, which was necessary \
-                            for day-to-day operations. \ I also co-led the software subteam in my sophomore year, helping onboard and \
-                            train over 50 members, as well as leading key projects in Object Detection, Motor Control and Obstacle Avoidance."
+                            "Supporting a class of 100+ students every week in CS 300 (OOProgramming II, Java) and CS540 (Intro to AI) at UW-Madison on debugging project assignments and course content\
+                            Helping improve student understanding of core programming concepts (OOP, data structures, algorithms) and Collaborating with 15+ teaching staff to enhance student understanding on supervised, unsupervised, and reinforcement learning algorithms and concepts like gradient descent, backpropogation, and bias-variance tradeoff.\
+                            Received 30+ multiple positive reviews from both students and teaching staff for exceptional engagement and perfect attendance.\
+                            Identified gaps in office hours and proposed improvements (e.g., Slack channel,improvements in review sessions) which were successfully adopted to enhance student–mentor collaboration."
                         ]
                     },
                     {
-                        title: "President",
-                        company: "RoboKnights",
-                        period: "September 2020 - March 2023",
-                        description: ["My time at RoboKnights comprised my first leadership and teamwork experiences. I joined as a \
-                        newbie relative to a lot of my companions and went through a life-shaping experience. I didn't just learn \
-                        technical skills on the fly, but also how to effectively collaborate and lead teams while \
-                        organizing/coordinating multiple arrangements.",
-                        "Throughout my junior and senior years of high school, I led multiple teams in \
-                        competitions organized by IIT-Bombay (Weldright, Meshmerize), IIT-Delhi (Mindmaze) and FAA (RWDC X2), \
-                        and played a key role in organizing interschool competitions (both online and in-person). As President, \
-                        I spearheaded new member recruitment, sponsorship outreach, competition organizations/preparations \
-                        and overall club management."]
+                        title: "Computer Vision Developer",
+                        company: "Wisconsin Autonomous",
+                        period: "January 2024 - May 2024",
+                        description: [
+                            "Co-led a team of five to develop an algorithm for detecting stop lines, utilizing a traditional OpenCV-based approach, using techniques like canny edge detection and Hough Transform. Finetuned Yolov8 for deer detection using Ultralytics and Roboflow.\
+                            Tackled various challenges, such as capturing feed of stop lines in different lighting conditions and capturing feed of faint stop lines to best emulate conditions of the MCity race track. \
+                            The code was finally used in the perception stack by the team in SAE’s AutoDrive Challenge 2024, in which we subsequently achieved 2nd place in the Construction Challenge and 3rd place in the Mobility Innovation Series"
+                            ]
                     }
                 ].map((job, index) => (
                     <div key={index} className="experience-item">
